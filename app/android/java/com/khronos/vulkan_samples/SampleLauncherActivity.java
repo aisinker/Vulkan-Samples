@@ -83,6 +83,8 @@ public class SampleLauncherActivity extends AppCompatActivity {
 
             // Get sample info from cpp cmake generated file
             samples = new SampleStore(Arrays.asList(getSamples()));
+        } else {
+            return;
         }
 
         // Required Permissions
