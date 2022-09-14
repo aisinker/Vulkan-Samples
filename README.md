@@ -21,7 +21,7 @@
 
 ![Vulkan Samples banner](banner.jpg)
 
-## Fork修改说明
+## Fork修改说明 <!-- omit in toc -->
 
 本项目基于[官方版本](https://github.com/KhronosGroup/Vulkan-Samples)做了以下调整：
 
@@ -30,7 +30,6 @@
 
 ## Contents <!-- omit in toc -->
 
-- [](#)
 - [Introduction](#introduction)
   - [Goals](#goals)
 - [Samples](#samples)
