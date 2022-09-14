@@ -27,7 +27,7 @@ fi
 
 cmake -DPROJECT_NAME="vulkan_samples" \
 	  -DANDROID_API=30 \
-	  -DARCH_ABI="arm64-v8a;armeabi-v7a" \
+	  -DARCH_ABI="arm64-v8a" \
 	  -DANDROID_MANIFEST=$ROOT_DIR/app/android/AndroidManifest.xml \
 	  -DJAVA_DIRS=$ROOT_DIR/app/android/java \
 	  -DRES_DIRS=$ROOT_DIR/app/android/res \

@@ -21,8 +21,16 @@
 
 ![Vulkan Samples banner](banner.jpg)
 
+## Fork修改说明
+
+本项目基于[官方版本](https://github.com/KhronosGroup/Vulkan-Samples)做了以下调整：
+
+1. Android工程由app模块改为library模块，以方便集成至其它app中。
+2. 移除`armeabi`和`armeabi-v7a`，仅保留`arm64-v8a`。
+
 ## Contents <!-- omit in toc -->
 
+- [](#)
 - [Introduction](#introduction)
   - [Goals](#goals)
 - [Samples](#samples)

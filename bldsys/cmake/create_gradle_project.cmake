@@ -29,14 +29,14 @@ set(GRADLE_WRAPPER_PROPERTIES_FILE ${SCRIPT_DIR}/template/gradle/gradle-wrapper.
 set(GRADLE_WRAPPER_PROPERTIES_JAR ${SCRIPT_DIR}/template/gradle/gradle-wrapper.jar)
 set(GRADLE_WRAPPER_SCRIPT_LINUX ${SCRIPT_DIR}/template/gradle/gradlew)
 set(GRADLE_WRAPPER_SCRIPT_WIN ${SCRIPT_DIR}/template/gradle/gradlew.bat)
-set(VALID_ABI "armeabi" "armeabi-v7a" "arm64-v8a" "x86" "x86_64")
+set(VALID_ABI "arm64-v8a" "x86" "x86_64")
 
 include(${SCRIPT_DIR}/utils.cmake)
 
 # script parameters
 set(ANDROID_API 30 CACHE STRING "")
 set(ANDROID_MANIFEST "AndroidManifest.xml" CACHE STRING "")
-set(ARCH_ABI "arm64-v8a;armeabi-v7a" CACHE STRING "")
+set(ARCH_ABI "arm64-v8a" CACHE STRING "")
 set(ASSET_DIRS "assets" CACHE STRING "")
 set(RES_DIRS "res" CACHE STRING "")
 set(JAVA_DIRS "java" CACHE STRING "")
