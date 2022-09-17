@@ -68,7 +68,7 @@ public class NativeSampleActivity extends NativeActivity {
     public void fatalError(final String log_file) {
         File file = new File(log_file);
 
-        Uri path = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", file);
+        Uri path = FileProvider.getUriForFile(context, context.getApplicationContext().getClass().getPackage().getName() + ".provider", file);
 
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
